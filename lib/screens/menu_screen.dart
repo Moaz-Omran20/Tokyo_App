@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tokyo_app/screens/colors_screen.dart';
 import 'package:tokyo_app/screens/family_members.dart';
+import 'package:tokyo_app/screens/phrases_screen.dart';
 import 'package:tokyo_app/screens/widgets/category_item.dart';
 
 import 'numbers_screen.dart';
@@ -53,7 +54,7 @@ class _MenuWidgetState extends State<MenuWidget> {
       }
     else if(index==3)
     {
-
+      Navigator.pushNamed(context, PhrasesScreen.routeName);
     }
   }
 }
