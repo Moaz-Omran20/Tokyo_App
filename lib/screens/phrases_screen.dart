@@ -42,7 +42,7 @@ class PhrasesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarWidget(title: "Numbers"),
+      appBar: AppBarWidget(title: "Phrases"),
       body: ListView.builder(
         itemBuilder: (context, index) {
           return PhrasesItem(phrases[index]);
