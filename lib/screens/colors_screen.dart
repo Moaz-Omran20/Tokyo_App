@@ -54,7 +54,7 @@ class ColorsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarWidget(title: "Numbers"),
+      appBar: AppBarWidget(title: "Colors"),
       body: ListView.builder(
         itemBuilder: (context, index) {
           return ColorItem(colors[index]);
