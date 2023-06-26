@@ -13,7 +13,7 @@ class PhrasesItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 90,
-      color: const Color(0xFFF8942D),
+      color: const Color(0xFF46A4C9),
       child: Row(
         children: [
           Container(

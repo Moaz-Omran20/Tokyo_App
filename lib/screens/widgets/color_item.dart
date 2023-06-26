@@ -12,7 +12,7 @@ class ColorItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color(0xFFF8942D),
+      color: const Color(0xFF7C3FA0),
       child: Row(
         children: [
           Container(
