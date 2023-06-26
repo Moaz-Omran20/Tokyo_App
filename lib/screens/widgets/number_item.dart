@@ -25,6 +25,7 @@ class NumberItem extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(left: 20),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   numbersModel.numberTokyo,
